@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/folder_root"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:background="#CC1a1a2e" android:padding="4dp">
+    <TextView android:id="@+id/folder_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:textColor="#FFFFFF" android:textSize="11sp" android:textStyle="bold" android:gravity="center" android:paddingBottom="2dp" android:text="Folder"/>
+    <GridView android:id="@+id/folder_grid" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" android:numColumns="3" android:verticalSpacing="2dp" android:horizontalSpacing="2dp" android:stretchMode="columnWidth" android:gravity="center"/>
+</LinearLayout>
